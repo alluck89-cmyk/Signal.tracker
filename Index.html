@@ -345,7 +345,7 @@ function fmt(n){return n?Number(n).toLocaleString():'—';}
 function shouldFireAlert(key){var now=Date.now();if(!firedAlerts[key]||now-firedAlerts[key]>ALERT_COOLDOWN_MS){firedAlerts[key]=now;return true;}return false;}
 
 // ─── Finnhub WebSocket ── bypasses CORS, works on GitHub Pages ───────────────
-var FKEY = 'd86a479r01qnvdehljd0';
+var FKEY = 'd86ga39r01qgiu45abg0';
 var wsConn = null;
 var wsReady = false;
 var wsPrices = {};
